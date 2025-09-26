@@ -1,6 +1,7 @@
 # Autoriser X11
 xhost +local:docker
 
+
 # Build et run dans le container
 docker run --rm -it \
     -v $(pwd):/workspace \

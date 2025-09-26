@@ -36,6 +36,7 @@ cp /usr/lib/x86_64-linux-gnu/libQt5Core.so.5 lib/ 2>/dev/null && echo '✓ libQt
 cp /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5 lib/ 2>/dev/null && echo '✓ libQt5Widgets.so.5' || echo '✗ libQt5Widgets.so.5'
 cp /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5 lib/ 2>/dev/null && echo '✓ libQt5Gui.so.5' || echo '✗ libQt5Gui.so.5'
 cp /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5 lib/ 2>/dev/null && echo '✓ libQt5DBus.so.5' || echo '✗ libQt5DBus.so.5'
+cp /usr/lib/x86_64-linux-gnu/libQt5XcbQpa.so.5 lib/ 2>/dev/null && echo '✓ libQt5XcbQpa.so.5' || echo '✗ libQt5XcbQpa.so.5'
 
 # Copier les plugins de plateforme
 echo 'Copie des plugins Qt5...'
@@ -60,6 +61,7 @@ cp /usr/lib/x86_64-linux-gnu/libicudata.so.* lib/ 2>/dev/null
 cp /usr/lib/x86_64-linux-gnu/libpcre2-16.so.* lib/ 2>/dev/null
 cp /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.* lib/ 2>/dev/null
 cp /usr/lib/x86_64-linux-gnu/libglib-2.0.so.* lib/ 2>/dev/null
+cp /usr/lib/x86_64-linux-gnu/libmd4c.so.* lib/ 2>/dev/null
 
 echo '=== Déploiement terminé ==='
 ")
